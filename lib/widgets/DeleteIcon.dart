@@ -63,7 +63,7 @@ class _DeleteIconState extends State<DeleteIcon> {
                 SnackBar(
                   backgroundColor: Colors.red,
                   content: Text(
-                    'Medicine deleted',
+                    'دارو حذف شد',
                     style: TextStyle(fontSize: 20),
                   ),
                   duration: Duration(seconds: 1),

@@ -21,7 +21,7 @@ class MedicineEmptyState extends StatelessWidget {
           ),
           SizedBox(height: 8),
           Text(
-            'No Medicince Added yet',
+            'دارویی وجود ندارد',
             style: TextStyle(
                 fontWeight: FontWeight.w300, fontSize: 16, letterSpacing: 1.2),
           )

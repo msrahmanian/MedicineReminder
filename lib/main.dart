@@ -121,7 +121,7 @@ class _MyMedicineReminder extends State<MyMedicineRemainder> {
 
     if (medicineId != null) {
       Fluttertoast.showToast(
-          msg: "The Medicine was added!",
+          msg: "دارو با موفقیت افزوده شد!",
           toastLength: Toast.LENGTH_SHORT,
           gravity: ToastGravity.BOTTOM,
           timeInSecForIos: 1,

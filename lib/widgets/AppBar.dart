@@ -22,7 +22,7 @@ class MyAppBar extends StatelessWidget {
             height: 25,
           ),
           Text(
-            'Medicine Reminder',
+            'یادآور دارو',
             style: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.w600,

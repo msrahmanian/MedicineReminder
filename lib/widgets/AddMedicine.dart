@@ -39,7 +39,7 @@ class _AddMedicineState extends State<AddMedicine> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Text(
-                  'Add New Medicine',
+                  'افزودن داروی جدید',
                   style: TextStyle(
                     fontSize: 25,
                     fontWeight: FontWeight.w600,
@@ -65,7 +65,7 @@ class _AddMedicineState extends State<AddMedicine> {
             Align(
               alignment: Alignment.centerLeft,
               child: Text(
-                'Shape',
+                'شکل دارو',
                 style: TextStyle(fontWeight: FontWeight.w300, fontSize: 25),
               ),
             ),
@@ -90,7 +90,7 @@ class _AddMedicineState extends State<AddMedicine> {
                 textColor: Colors.white,
                 highlightColor: Theme.of(context).primaryColor,
                 child: Text(
-                  'Add Medicine'.toUpperCase(),
+                  'افزودن دارو'.toUpperCase(),
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
               ),
@@ -124,7 +124,7 @@ class _AddMedicineState extends State<AddMedicine> {
           TextFormField(
             style: TextStyle(fontSize: 25),
             decoration: InputDecoration(
-              labelText: 'Name',
+              labelText: 'نام دارو',
               labelStyle: labelsStyle,
             ),
             validator: (input) => (input.length < 5) ? 'Name is short' : null,
@@ -133,7 +133,7 @@ class _AddMedicineState extends State<AddMedicine> {
           TextFormField(
             style: TextStyle(fontSize: 25),
             decoration: InputDecoration(
-              labelText: 'Dose',
+              labelText: 'دوز دارو',
               labelStyle: labelsStyle,
             ),
             validator: (input) => (input.length > 50) ? 'Dose is long' : null,
